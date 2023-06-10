@@ -1,12 +1,12 @@
 import './App.css'
-import RadarChart from './RadarChart'
+import Person from './components/Person/Person'
 
 function App() {
   return (
     <>
       <div>
-        <h1>Radar Chart Example</h1>
-        <RadarChart />
+        <h1>Ratings!</h1>
+        <Person />
       </div>
     </>
   )
