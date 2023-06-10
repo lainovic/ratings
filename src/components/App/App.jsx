@@ -1,11 +1,12 @@
-import './App.css'
-import Person from './components/Person/Person'
+import Person from '../Person'
 
 function App() {
   return (
     <>
       <div>
-        <h1>Ratings!</h1>
+        <h1 className="text-5xl font-mono">
+          Ratings!
+        </h1>
         <Person />
       </div>
     </>
